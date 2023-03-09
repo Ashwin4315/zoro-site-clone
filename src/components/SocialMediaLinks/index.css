@@ -1,0 +1,11 @@
+
+.social-media-links-container{
+    display: flex;
+    gap: 0.3rem;
+
+}
+.social-media-links-container img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}

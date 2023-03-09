@@ -1,0 +1,121 @@
+
+.display-main-container{
+    /* width: 70%; */
+}
+.display-shows-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.display-shows-card{
+    width:11rem;
+    background-color:  #2a2c31;
+    height: auto;
+}
+
+.display-shows-card-image{
+    width:11rem;
+    height: 15rem;
+    cursor: pointer;
+    position: relative;
+}
+.display-shows-card-image::after{
+    position: absolute;
+    content: "";
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-image: url("https://img.icons8.com/ios-glyphs/60/000000/play--v1.png");
+    background-repeat: no-repeat;
+    filter: brightness(0) invert(1);
+    background-size:3rem;
+    background-position: center;
+    opacity: 0;
+    
+}
+.display-shows-card-image::before{
+    position: absolute;
+    content: "";
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-image: linear-gradient(0deg,#2a2c31 0,rgba(42,44,49,0) 96%);
+    background-size:3rem;
+    opacity: 0;
+
+    
+}
+.display-shows-card-image:hover::after{
+ opacity: 1;  
+ transition: 0.5s;
+}
+.display-shows-card-image:hover::before{
+    opacity: 1;  
+    transition: 0.5s;
+}
+
+.display-shows-card-image:hover{
+
+ z-index: 9999;
+}
+.display-shows-card-image img{
+    width:11rem;
+    height: 15rem;
+}
+
+.display-shows-card-content{
+    text-align: center;
+    padding: 1rem;
+}
+.display-shows-card-content h2{
+    font-size: 0.9rem;
+    color: aliceblue;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.display-shows-card-content h2:hover{
+    color: var(--primary-color);
+}
+.display-type{
+    margin: 1.3rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid grey;
+}
+
+.display-type h2{
+    color: var(--primary-color);
+}
+.display-type button{
+    background-color: transparent;
+    border: none;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.display-shows-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.display-shows-info p:nth-child(1){
+    color: var(--primary-color);
+ font-size: 0.7rem;
+ font-weight: bolder;
+}
+.display-shows-info p:nth-child(2){
+ color: grey;
+ padding: 0.3rem 0.3rem ;
+ font-size: 0.7rem;
+ font-weight: bolder;
+}

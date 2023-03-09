@@ -1,0 +1,10 @@
+.detail-recommendation-container{
+    width: 100%;
+    margin-top: 10rem;
+    padding: 0% 2%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+  
+}
+

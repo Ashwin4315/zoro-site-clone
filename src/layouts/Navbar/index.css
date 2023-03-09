@@ -1,0 +1,16 @@
+.navbar{
+    position: fixed;
+    height: 3.5rem;
+    width: 100%;
+    backdrop-filter: blur(50px) brightness(80%);
+    z-index: 19999;
+    padding: 0.5% 1%;
+    top: 0;
+}
+
+.navbar-logo-bar-container{
+    display: flex; 
+    gap: 1rem;
+}
+
+

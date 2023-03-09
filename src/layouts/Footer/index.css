@@ -1,0 +1,19 @@
+.footer{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    background-image: url("../../assests/Images/footer.jpg");
+    background-size: cover;
+    padding: 1%;
+    gap: 1rem;
+}
+
+.footer-logo-links-container{
+    display: flex; 
+    gap: 1rem;
+}
+.footer-logor{
+    border-right: 1px solid rgba(236, 230, 230, 0.534);
+}
+

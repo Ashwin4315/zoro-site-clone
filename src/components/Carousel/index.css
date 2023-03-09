@@ -1,0 +1,7 @@
+
+.carousel-main-container{
+    height: 60vh;
+    width: 100%;
+    overflow: scroll;
+    background-color: aliceblue;
+}

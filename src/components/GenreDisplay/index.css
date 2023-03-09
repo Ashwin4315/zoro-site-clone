@@ -1,0 +1,28 @@
+.genre-display-main-container{
+    
+}
+.genre-display-main-container h2{
+     color: var(--primary-color);
+     margin-bottom: 1rem;
+    
+}
+
+.genre-display-types{
+    background-color: #2a2c31;
+    padding: 5%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.genre-display-types button{
+    background-color: transparent;
+    color: aliceblue;
+    border:none;
+    text-align: start;
+    margin:0.3rem;
+    cursor: pointer;
+}
+.genre-display-types button:hover{
+    color: var(--primary-color);
+   
+}

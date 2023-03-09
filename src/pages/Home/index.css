@@ -1,0 +1,15 @@
+.home-sub-container{
+    padding: 2% 2%;
+}
+
+.home-content-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+}
+
+.home-content-random-list{
+display: flex;
+flex-direction: column;
+gap: 10rem;
+}
